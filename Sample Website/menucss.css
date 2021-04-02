@@ -1,0 +1,147 @@
+div {
+  padding-top:10px;
+  padding-bottom:10px;
+  padding-left:10px;
+  padding-right:10px;
+  border-radius:25px;
+  margin:10px;
+}
+h1
+{
+text-align:center;
+font-size:50px;
+}
+p
+{
+font-size:30px;
+}
+.ingredients 
+{
+  font-size:30px;
+}
+h4
+{
+  font-size:40px;
+}
+button
+{
+  font-size:30px;
+}
+
+
+#intro
+{
+  background-color:coral;
+}
+
+.items 
+{
+  background-color:khaki;
+  
+}
+#container
+{
+  display:flex
+}
+#container > div {
+  flex: 1; /*grow*/
+}
+#container2
+{
+  display:flex;
+  justify-content:center;
+}
+#container2 > button
+{
+  flex:1;
+ 
+}
+
+#sev #sevtext
+{
+  visibility:hidden;
+  width:120px;
+  background-color:black;
+  color:#fff;
+  text-align:center;
+  border-radius:6px;
+  padding:5px;
+  position:absolute;
+  z-index:1;  
+}
+#sev:hover #sevtext
+{
+  visibility:visible;
+}
+
+
+#po #potext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+#po:hover #potext {
+  visibility: visible;
+}
+
+#mum #mumtext
+{
+    visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+
+  
+}
+
+#mum:hover #mumtext
+{
+  visibility:visible;
+}
+
+
+#tam #tamtext 
+{
+  visibility:hidden;
+  background-color:black;
+  width:120px;
+  border:5px;
+  color:#fff;
+  z-index:1;
+  position:absolute;
+}
+
+#tam:hover #tamtext
+{
+  visibility:visible;
+}
+
+#gre #gretext
+{
+  color:#fff;
+  background-color:black;
+  width:200px;
+  border:5px;
+  z-index:1;
+  visibility:hidden;
+  position:absolute;
+}
+
+#gre:hover #gretext
+{
+  visibility:visible;
+}
